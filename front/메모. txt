@@ -1,0 +1,22 @@
+<redux-thunk>
+yarn add react-router-dom styled-components axios redux react-redux redux-actions redux-devtools-extension redux-logger redux-thunk
+
+프로젝트 이름바꾸기 1.폴더명바꾼다 2.package.json 에 name 바꾼다
+
+git remote add url~~
+git pull origin master
+git add -A
+git commit -m '...'
+git push origin master
+
+줄 삭제: Ctrl + Shift + K
+커서가 위치한 같은 단어 반복 선택: Ctrl + D
+라인 들여쓰기: Ctrl +]
+
+☆redux 초기 세팅.☆
+src/index.js복붙
+src/modules/index.js 복붙 연결용
+
+뉴스프로젝트프로세스
+Module -> index.js -> pages/NewsPage.js -> container(Ajax) -> NewsList.js(component) -> NewsItem.js(component)
+
