@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux'
-import ㅁㅁㅁㅁ from './ㅁㅁㅁ.js'
+import kakaoImageSearchModule from './KakaoImageSearch'
 
 const rootReducer = combineReducers({
-  ㅁㅁㅁㅁ
+  kakaoImageSearchModule
 })
 
 export default rootReducer;

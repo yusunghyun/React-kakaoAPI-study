@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink,Switch,Route} from 'react-router-dom'
+import ImageSearch from './pages/ImageSearch'
 
 const App = () => {
 
@@ -11,7 +12,9 @@ const App = () => {
 
   return (
     <div>
-      
+      <Switch>
+        <Route path='/:query?' component={ImageSearch} />
+      </Switch>
     </div>
   );
 }
